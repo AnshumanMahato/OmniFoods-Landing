@@ -78,6 +78,21 @@ url("../fonts/icofont.woff") format("woff");
   content: "\eee1";
 }
 
+.icofont-facebook:before
+{
+  content: "\ed37";
+}
+
+.icofont-google-plus:before
+{
+  content: "\ed43";
+}
+
+.icofont-instagram:before
+{
+  content: "\ed46";
+}
+
 .icofont-xs
 {
   font-size: .5em;

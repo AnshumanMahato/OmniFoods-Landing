@@ -88,11 +88,32 @@
 
     .app-screen {width: 40%;}
 
+    .meals-showcase li {width: 50%;}
+
 }
 
 /* Small Phones:0px to 480px */
 @media only screen and (max-width: 480px){
     section {padding: 25px 0;}
     .contact-form {width: 100%;}
+
+    h1 {font-size: 170%;}
+    h2 {font-size: 135%;}
+
+    .btn {margin: 10px 0;}
+
+    .btn-app img {
+        height: 40px;
+        width: auto;
+        margin: 5px;
+    }
+
+    .logo {
+        height: 70px;
+        width: 70px;
+        float: left;
+        margin-top: 20px;
+    }
+    
 
 }
